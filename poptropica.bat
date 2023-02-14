@@ -1,5 +1,5 @@
 title Poptropica
 
-cd "C:\path\server\"
+@echo off
 pushd browser
-start chrome.exe https://localhost:0000/server/index.html
+start chrome.exe %USERPROFILE%\..\server\index.html
