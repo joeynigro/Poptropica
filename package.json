@@ -1,0 +1,13 @@
+{
+ "name": "poptropica",
+ "version": "1.0.0",
+ "license": "MIT",
+ "private": true,
+ "scripts": {
+  "start": "node index.js"
+ },
+ "main": "index.js",
+ "dependencies": {
+  "cors": "^2.8.5"
+ }
+}

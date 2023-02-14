@@ -1,5 +1,3 @@
-title Poptropica
-
-@echo off
-pushd browser
-start chrome.exe %USERPROFILE%\..\server\index.html
+cd %CD%\server\
+start "" "%CD%\browser\chrome.exe" --new-window "http://localhost:9999/"
+cmd /k npm start
